@@ -22,5 +22,13 @@
     "username": "e2e_test_signup",
     "comment": "batch test comment 2",
     "posted_at": "2026-07-21T20:00:38.717Z"
+  },
+  {
+    "comment_id": "dance-077-1784664084809-0",
+    "parent_comment_id": null,
+    "video_id": "dance-077",
+    "username": "e2e_test_signup",
+    "comment": "concurrency probe A",
+    "posted_at": "2026-07-21T20:01:24.802Z"
   }
 ]
