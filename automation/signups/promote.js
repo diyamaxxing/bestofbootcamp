@@ -16,7 +16,7 @@ const { execSync } = require("child_process");
 const { readRows, ensureProcessedColumn, markProcessed } = require("../lib/google-sheets");
 
 // From the signup Google Sheet's URL: docs.google.com/spreadsheets/d/{ID}/edit
-const SHEET_ID = "PASTE_YOUR_SIGNUP_SHEET_ID_HERE";
+const SHEET_ID = "1GoNCI68fpawvFE7_-ihk0WbelneV5JQniGYgoeRk8BM";
 const SHEET_TAB_NAME = "Form Responses 1"; // Google Forms' default response-tab name
 
 const USERS_PATH = path.join(__dirname, "..", "..", "data", "users.json");

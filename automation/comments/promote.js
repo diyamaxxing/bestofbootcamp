@@ -15,7 +15,7 @@ const { execSync } = require("child_process");
 const { readRows, ensureProcessedColumn, markProcessed } = require("../lib/google-sheets");
 
 // From the comment Google Sheet's URL: docs.google.com/spreadsheets/d/{ID}/edit
-const SHEET_ID = "PASTE_YOUR_COMMENT_SHEET_ID_HERE";
+const SHEET_ID = "1zgE_xHB4XiHhrDuF-oTBFyec3Iu9sYn6bsUFjZX8A1g";
 const SHEET_TAB_NAME = "Form Responses 1";
 
 const USERS_PATH = path.join(__dirname, "..", "..", "data", "users.json");
