@@ -30,5 +30,13 @@
     "username": "e2e_test_signup",
     "comment": "concurrency probe A",
     "posted_at": "2026-07-21T20:01:24.802Z"
+  },
+  {
+    "comment_id": "dance-077-1784664399171-0",
+    "parent_comment_id": null,
+    "video_id": "dance-077",
+    "username": "e2e_test_signup2",
+    "comment": "direct function call test",
+    "posted_at": "2026-07-21T20:06:39.164Z"
   }
 ]
