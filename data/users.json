@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "username": "e2e_test_signup",
+    "pin": "1234",
+    "favoriteMember": "Jimin",
+    "armyType": "new",
+    "createdAt": "2026-07-21"
+  }
+]
