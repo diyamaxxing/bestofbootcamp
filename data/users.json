@@ -19,26 +19,5 @@
     "favoriteMember": "Suga",
     "armyType": "veteran",
     "createdAt": "2026-07-22"
-  },
-  {
-    "username": "smoke_ok",
-    "pin": null,
-    "favoriteMember": null,
-    "armyType": "new",
-    "createdAt": "2026-09-02"
-  },
-  {
-    "username": "smokeburn",
-    "pin": "1234",
-    "favoriteMember": "Suga",
-    "armyType": "new",
-    "createdAt": "2026-09-02"
-  },
-  {
-    "username": "fmtest_1788320484",
-    "pin": "1234",
-    "favoriteMember": "V",
-    "armyType": "new",
-    "createdAt": "2026-09-02"
   }
 ]
