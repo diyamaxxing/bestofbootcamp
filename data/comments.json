@@ -22,5 +22,13 @@
     "username": "fmtest_1788320484",
     "comment": "fmtest automated comment",
     "posted_at": "2026-09-02T03:41:44.254Z"
+  },
+  {
+    "comment_id": "bomb-847-1788320514141-0",
+    "parent_comment_id": null,
+    "video_id": "bomb-847",
+    "username": "fmtest_1788320484",
+    "comment": "fmtest automated comment",
+    "posted_at": "2026-09-02T03:41:54.135Z"
   }
 ]
