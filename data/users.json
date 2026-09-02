@@ -26,5 +26,12 @@
     "favoriteMember": null,
     "armyType": "new",
     "createdAt": "2026-09-02"
+  },
+  {
+    "username": "smokeburn",
+    "pin": "1234",
+    "favoriteMember": "Suga",
+    "armyType": "new",
+    "createdAt": "2026-09-02"
   }
 ]
