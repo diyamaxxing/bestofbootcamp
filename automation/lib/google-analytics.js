@@ -1,17 +1,15 @@
 // ── GA4 Data API access for a GitHub Actions workflow, no npm dependencies ──
 //
-// Same hand-rolled service-account JWT auth as automation/lib/google-sheets.js
-// (standard OAuth2 service-account bearer flow, RFC 7523), kept as its own
-// file rather than a shared refactor of google-sheets.js — one small
-// self-contained lib per Google API surface, and this way the live
-// comments/signups pipeline's code path is untouched.
+// Hand-rolled service-account JWT auth (standard OAuth2 service-account
+// bearer flow, RFC 7523). This is the only Google API surface this repo
+// still talks to — the Sheets-based signup/comment promotion pipeline was
+// retired at the Lambda-ingress cutover (see btsbootcamp's
+// ARCHITECTURE_DECISIONS.md, "Write pipeline v3").
 //
-// Reuses the same GOOGLE_SERVICE_ACCOUNT_KEY secret as google-sheets.js — a
-// service-account JWT's scope is set per token request, so the same key can
-// mint tokens for Sheets and for the Analytics Data API. The service account
-// additionally needs Viewer access on the GA4 property (GA4 Admin > Property
-// Access Management) and the "Google Analytics Data API" enabled in the
-// owning GCP project — neither of those is something this code can do.
+// Uses the GOOGLE_SERVICE_ACCOUNT_KEY Actions secret. The service account
+// needs Viewer access on the GA4 property (GA4 Admin > Property Access
+// Management) and the "Google Analytics Data API" enabled in the owning GCP
+// project — neither of those is something this code can do.
 
 const crypto = require("crypto");
 
