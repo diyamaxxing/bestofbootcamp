@@ -1,9 +1,11 @@
 {
-  "generated_at": "2026-09-13T20:23:02.637Z",
+  "generated_at": "2026-09-14T03:34:56.482Z",
   "window_days": 7,
   "videos": {
+    "on-air-001": 26,
+    "mv-189": 25,
+    "mv-197": 21,
     "index-02614": 5,
-    "on-air-001": 1,
     "on-air-352": 1
   }
 }
